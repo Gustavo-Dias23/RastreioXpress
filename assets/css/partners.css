@@ -1,0 +1,39 @@
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2BC866;
+    height: 700px;
+    width: 100%;
+}
+.sobre img{
+    width: 20%;
+}
+.parceiros{
+    gap:20px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.parceiros h2{
+    color:#FFF;
+    font-size: 40px;
+    font-weight: bold;
+}
+.parceiros p{
+    color:#fff;
+    font-weight: 400;
+}
+.logos{
+    background-color: #fFF;
+    border-radius: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logos img{
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 10%;
+}

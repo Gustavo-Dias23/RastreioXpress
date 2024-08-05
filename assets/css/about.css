@@ -1,0 +1,63 @@
+.sobre{
+    display:flex;
+    flex-direction: column;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo h1{
+    font-size: 45px;
+    color:#2BC866;
+}
+.titulo p{
+    font-size: 18px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    height:10%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 25px;
+}
+.card img{
+    width: 75%;
+}
+.card h3{
+    color:#2BC866;
+}
+.cadastro{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.cadastro h2{
+    width: 60%;
+    font-size: 40px;
+    font-weight: 400;
+    color:#2BC866
+}
+.btn4{
+    text-decoration: none;
+    color:#FFF;
+    border: 3px solid #1A9047;
+    background-color: #1A9047;
+    padding: 8px 30px;
+    border-radius: 7px;
+    font-weight: 300;
+    font-size: 20px;
+    transition: .5s;
+}
+.btn4:hover {
+    background-color: #FFF;
+    color:#1A9047;
+}

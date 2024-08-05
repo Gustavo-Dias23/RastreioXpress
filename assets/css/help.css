@@ -1,0 +1,54 @@
+.containerhelp{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.imgtext{
+    margin-top: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+.imgtext img{
+    width: 50%;
+}
+.texttitle{
+    margin: 50px;
+}
+.texttitle h1{
+    color: #2BC866;
+    font-size:38px;
+}
+.cards{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    align-items: center;
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    align-items:start;
+    height: 450px;
+    width: 11%;
+    border: 1px solid #2BC866;
+    border-radius: 4px;
+    padding:20px;
+    text-align:left;
+}
+.card h3{
+    color:#2BC866
+}
+.card p{
+    line-height: 25px;
+}
+.card i{
+    padding:40px 0 15px 0;
+}
+.card ul li{
+    text-align: left;
+    padding: 5px;
+}

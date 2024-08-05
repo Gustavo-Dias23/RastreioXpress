@@ -1,0 +1,85 @@
+*{
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    margin:0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.btn1:hover {
+    background-color: transparent;
+    color:#1A9047;
+}
+.btn2:hover {
+    background-color: #2BC866;
+    color:#FFF;
+}
+.btn1{
+    border: 3px solid #1A9047;
+    background-color: #1A9047;
+    padding: 8px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    transition: .5s;
+}
+.btn2{
+    border: 1px solid #2BC866;
+    background-color: #FFF;
+    padding: 8px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    transition: .5s;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.home h1{
+    color:#2BC866;
+    display:flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-size:52px;
+}
+.home input{
+    height:40px;
+    width: 600px;
+    border-radius: 5px;
+    border: 1px solid grey
+}
+.home img{
+    margin-top: 100px;
+    width: 80%;
+}
+.texto{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn3{
+    display: flex;
+    border: 1px solid grey;
+    background-color: grey;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: .5s;
+    text-decoration: none;
+    color:#fFF;
+}
+.btn3:hover {
+    background-color: #FFF;
+    color:grey;
+}
